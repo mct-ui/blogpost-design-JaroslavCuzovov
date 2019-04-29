@@ -293,3 +293,41 @@ a:focus {
     font-style: italic;
     src: url("../fonts/DroidSerif-BoldItalic-webfont.woff") format("woff");
 }
+
+/*
+    Components: Author
+*/
+
+.c-author {
+    display: flex;
+    align-items: center;
+}
+
+.c-author_image {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+.c-author_name,
+.c-author_meta {
+    margin-bottom: 0;
+}
+
+.c-author_meta {
+    font-size: 14px;
+    font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
+    line-height: 16px;
+    margin-top: 4px;
+}
+
+.c-author_name {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.c-author_image{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    margin-right: 16px;
+}
