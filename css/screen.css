@@ -377,7 +377,7 @@ a:focus {
 }
 
 .c-article_header{
-    padding: 24px 24px,
+    padding: 24px 24px 0;
 }
 
 .c-article_body{
@@ -386,4 +386,21 @@ a:focus {
 
 .u-max-width-sm{
     max-width: 36em;
+}
+
+.c-article_date{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+
+.c-blockquote{
+    color: #00B37D;
+    background-color: #F2FAF8;
+    font-style: italic;
+    font-weight: 700;
+    padding: 4% 2% 8%;
+    line-height: 150%;
+    font-size: 150%;
+    margin: 16% auto 8%;
 }
